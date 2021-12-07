@@ -6,6 +6,10 @@ let para1 = document.getElementById('para1');
 let para2 = document.getElementById('para2') 
 btn1.addEventListener("click",function () {
     para.classList.toggle('abc')
+    if (m) {
+        
+    }
+   
 })
 btn2.addEventListener('click',function () {
     para1.classList.toggle('abc')
