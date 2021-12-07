@@ -52,3 +52,6 @@ button :hover{
 .para{
     margin-bottom: 20px;
 }
+.xyz{
+    display: none !important;
+}
