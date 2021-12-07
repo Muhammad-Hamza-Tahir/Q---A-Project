@@ -1,8 +1,8 @@
 .main{
     width: 1335px;
     height: 640px;
-    background-color: whitesmoke;
-    border: 1px solid black;
+    background-color:rgba(0,0,255,.1);
+    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,7 +10,7 @@
 .main-center{
     width: 600px;
     height: 600px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 h1{
     text-align: center;
@@ -21,9 +21,9 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 580px;
+    width: 600px;
     height: 60px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     background-color: white;
 }
 p{
@@ -32,10 +32,23 @@ p{
 .para{
     margin-top: -8px;
     background-color: white;
+    display: none;
 }
 button{
   border: none;
   background-color: white;
   color: goldenrod;
+  cursor: pointer;
   
+}
+button :hover{
+    transform: rotate(100deg);
+    transition: ease-in-out 2s;
+
+}
+.abc{
+    display: block;
+}
+.para{
+    margin-bottom: 20px;
 }
