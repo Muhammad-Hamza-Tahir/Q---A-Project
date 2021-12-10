@@ -7,6 +7,8 @@ let para2 = document.getElementById('para2')
 btn1.addEventListener("click",function () {
     para.classList.toggle('abc')
     
+// below two line code is for if i click on 1st div remaining div remains closed
+
     para1.classList.remove('abc');
     para2.classList.remove('abc');    
     
@@ -15,12 +17,14 @@ btn1.addEventListener("click",function () {
 btn2.addEventListener('click',function () {
     para1.classList.toggle('abc')
 
+    // below two line code is for if i click on 1st div remaining div remains closed
     para.classList.remove('abc');
     para2.classList.remove('abc');
 })
 btn3.addEventListener('click',function () {
     para2.classList.toggle('abc')
 
+    // below two line code is for if i click on 1st div remaining div remains closed
     para.classList.remove('abc');
     para1.classList.remove('abc');
 })
